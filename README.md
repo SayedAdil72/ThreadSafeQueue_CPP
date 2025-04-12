@@ -98,9 +98,14 @@ mkdir build && cd build
 cmake .. -G "Visual Studio 17 2022"
 cmake --build . --config Release
 
-# Run the demo and tests
+# Run the example
 Release\queue_main.exe
-ctest --verbose -C Release
+
+# Run unit tests
+ctest --verbose -C Release 
+          OR 
+Release\queue_tests.exe
+
 ```
 
 ---
@@ -129,6 +134,9 @@ make
 
 # Run unit tests
 ctest --verbose
+    OR
+./queue_tests
+
 ```
 
 ---
