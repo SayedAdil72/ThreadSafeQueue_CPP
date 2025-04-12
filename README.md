@@ -85,7 +85,7 @@ GTest Version: `1.12.1`
 ### Cloning from GitHub
 
 ```bash
-git clone https://github.com/yourusername/thread-safe-queue.git
+git clone https://github.com/SayedAdil72/ThreadSafeQueue_CPP.git
 cd thread-safe-queue
 ```
 
